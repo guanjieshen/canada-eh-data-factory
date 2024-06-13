@@ -1,0 +1,9 @@
+{
+	"name": "canada-eh-data-factory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac2f92cd-e28e-4685-b19d-faf035a32e2b",
+		"tenantId": "9f37a392-f0ae-4280-9796-f1864a10effc"
+	}
+}

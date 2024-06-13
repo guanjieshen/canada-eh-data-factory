@@ -1,0 +1,32 @@
+{
+	"name": "Serverless Jobs Test",
+	"properties": {
+		"activities": [
+			{
+				"name": "Run Databricks Notebook",
+				"description": "Uses serverless Databricks Jobs compute.",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "One-time Run - Serverless",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"DatabricksWorkspaceID": "adb-984752964297111.11",
+						"ADFWaitSeconds": 30,
+						"DatabricksRunName": "TestADFJob1"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-06-13T04:49:32Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
