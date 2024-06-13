@@ -13,7 +13,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "One-time Run - Serverless",
+						"referenceName": "Databricks - One Time Run",
 						"type": "PipelineReference"
 					},
 					"waitOnCompletion": true,
