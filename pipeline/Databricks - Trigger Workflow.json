@@ -226,7 +226,7 @@
 		"parameters": {
 			"DatabricksWorkspaceID": {
 				"type": "string",
-				"defaultValue": "adb-984752964297111.11"
+				"defaultValue": "adb-193752524297111.11"
 			},
 			"ADFWaitSeconds": {
 				"type": "int",
