@@ -1,7 +1,7 @@
 {
-	"name": "Databricks - One Time Run Notebook",
+	"name": "Databricks - Serverless Run Notebook",
 	"properties": {
-		"description": "Databricks Application ID: 2ff814a6-3304-4ab8-85cb-cd0e6f879c1d",
+		"description": "This template can be used to submit notebook runs to a Databricks Workspace using serverless jobs compute.",
 		"activities": [
 			{
 				"name": "Execute Jobs API",
@@ -258,7 +258,9 @@
 		"folder": {
 			"name": "Custom Databricks Activities"
 		},
-		"annotations": [],
+		"annotations": [
+			"Databricks"
+		],
 		"lastPublishTime": "2024-06-13T04:49:32Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
