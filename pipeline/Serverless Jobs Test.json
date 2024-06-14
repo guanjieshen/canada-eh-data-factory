@@ -13,7 +13,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "Databricks - One Time Run",
+						"referenceName": "Databricks - One Time Run Notebook",
 						"type": "PipelineReference"
 					},
 					"waitOnCompletion": true,
