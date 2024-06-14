@@ -7,6 +7,7 @@
 		"Until",
 		"IfCondition"
 	],
+	"documentation": "https://medium.com/@gshen92/40230d03e095",
 	"author": "guanjie.shen@databricks.com",
 	"annotations": [
 		"Databricks"
@@ -15,6 +16,14 @@
 		"Azure Databricks"
 	],
 	"categories": [
-		"Data flow"
+		"Data Movement",
+		"Integration",
+		"Web activity",
+		"Analytics",
+		"AI Machine Learning",
+		"Data flow",
+		"Data Masking",
+		"Copy",
+		"Transform"
 	]
 }
