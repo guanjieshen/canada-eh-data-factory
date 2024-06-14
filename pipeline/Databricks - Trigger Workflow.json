@@ -1,7 +1,7 @@
 {
 	"name": "Databricks - Trigger Workflow",
 	"properties": {
-		"description": "Databricks Application ID: 2ff814a6-3304-4ab8-85cb-cd0e6f879c1d",
+		"description": "This template is used to trigger the execution of an existing Databricks Workflow in a given workspace.",
 		"activities": [
 			{
 				"name": "Execute Workflow Run API",
@@ -256,7 +256,9 @@
 		"folder": {
 			"name": "Custom Databricks Activities"
 		},
-		"annotations": [],
+		"annotations": [
+			"Databricks"
+		],
 		"lastPublishTime": "2024-06-13T04:53:14Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
