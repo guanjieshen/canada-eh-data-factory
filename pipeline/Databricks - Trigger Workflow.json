@@ -5,6 +5,7 @@
 		"activities": [
 			{
 				"name": "Execute Workflow Run API",
+				"description": "This task submits the notebook to the run submit API endpoint.",
 				"type": "WebActivity",
 				"dependsOn": [],
 				"policy": {
@@ -125,6 +126,7 @@
 			},
 			{
 				"name": "Check Job Status",
+				"description": "Check the status of the run.",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
@@ -160,6 +162,7 @@
 			},
 			{
 				"name": "Get Job Run URL",
+				"description": "This get the Job Run ID URL after the run has been submitted.",
 				"type": "WebActivity",
 				"dependsOn": [
 					{
@@ -194,6 +197,7 @@
 			},
 			{
 				"name": "Set Run Page URL",
+				"description": "Set the URL for the Run Page.",
 				"type": "SetVariable",
 				"dependsOn": [
 					{
