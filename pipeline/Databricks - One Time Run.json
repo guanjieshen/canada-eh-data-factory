@@ -234,7 +234,7 @@
 			},
 			"ADFWaitSeconds": {
 				"type": "int",
-				"defaultValue": 10
+				"defaultValue": 30
 			},
 			"DatabricksNotebookParameters": {
 				"type": "string",
