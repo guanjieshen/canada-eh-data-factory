@@ -1,5 +1,5 @@
 {
-	"name": "Databricks - Serverless Run Notebook",
+	"name": "Databricks - Run Serverless Notebook",
 	"properties": {
 		"description": "This template can be used to submit notebook runs to a Databricks Workspace using serverless jobs compute.",
 		"activities": [
