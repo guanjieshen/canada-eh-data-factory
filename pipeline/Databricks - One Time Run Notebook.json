@@ -5,6 +5,7 @@
 		"activities": [
 			{
 				"name": "Execute Jobs API",
+				"description": "This task submits the notebook to the run submit API endpoint.",
 				"type": "WebActivity",
 				"dependsOn": [],
 				"policy": {
