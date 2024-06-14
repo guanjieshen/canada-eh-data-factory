@@ -233,10 +233,7 @@
 				"defaultValue": 10
 			},
 			"DatabricksJobParameters": {
-				"type": "string",
-				"defaultValue": {
-					"ETL_ID": "60"
-				}
+				"type": "string"
 			},
 			"DatabricksJobID": {
 				"type": "string",
