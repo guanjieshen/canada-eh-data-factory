@@ -239,7 +239,7 @@
 			"DatabricksNotebookParameters": {
 				"type": "string",
 				"defaultValue": {
-					"ETL_ID": "60"
+					"Example_ETL_PARAM": "99"
 				}
 			},
 			"DatabricksRunName": {
