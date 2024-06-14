@@ -23,6 +23,27 @@
 						"DatabricksRunName": "TestADFJob1"
 					}
 				}
+			},
+			{
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Databricks - Trigger Workflow",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"DatabricksWorkspaceID": "adb-984752964297111.11",
+						"ADFWaitSeconds": 10,
+						"DatabricksJobID": "68933248857869"
+					}
+				}
 			}
 		],
 		"annotations": [],
