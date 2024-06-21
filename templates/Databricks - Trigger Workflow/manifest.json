@@ -7,6 +7,7 @@
 		"Until",
 		"IfCondition"
 	],
+	"documentation": "https://medium.com/p/40230d03e095",
 	"author": "guanjie.shen@databricks.com",
 	"annotations": [
 		"Azure Databricks",
@@ -15,6 +16,16 @@
 		"Serverless",
 		"Spark"
 	],
-	"services": [],
-	"categories": []
+	"services": [
+		"Azure Databricks"
+	],
+	"categories": [
+		"AI Machine Learning",
+		"Azure Pipeline",
+		"Copy",
+		"Data flow",
+		"Data Masking",
+		"Data Movement",
+		"Transform"
+	]
 }
