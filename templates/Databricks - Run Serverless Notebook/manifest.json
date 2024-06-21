@@ -10,7 +10,10 @@
 	"documentation": "https://medium.com/@gshen92/40230d03e095",
 	"author": "guanjie.shen@databricks.com",
 	"annotations": [
-		"Databricks"
+		"Azure Databricks",
+		"Databricks",
+		"ETL",
+		"Spark"
 	],
 	"services": [
 		"Azure Databricks"
